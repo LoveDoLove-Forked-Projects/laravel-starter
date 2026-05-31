@@ -47,17 +47,17 @@ php artisan starter:update
 
 This runs `composer update`, checks for new module migrations, runs outstanding migrations, and clears all caches.
 
-## Create New module
+## Create New Module
 
-To create a project use the following command, you have to replace the MODULE_NAME with the name of the module.
+To create a module use the following command, replacing `MODULE_NAME` with the name of your module.
 
-```php
+```bash
 php artisan module:build MODULE_NAME
 ```
 
-You may want to use `--force` option to overwrite the existing module. if you use this option, it will replace all the existing files with the default stub files.
+You may want to use the `--force` option to overwrite an existing module. If you use this option, it will replace all the existing files with the default stub files.
 
-```php
+```bash
 php artisan module:build MODULE_NAME --force
 ```
 
@@ -145,7 +145,7 @@ It is a modular application, and some modules are installed by default. It will 
   * Categories
   * Tags
   * Comments
-  * wysiwyg editor
+  * WYSIWYG editor ([laravel-jodit](https://github.com/nasirkhan/laravel-jodit))
   * File browser
 * Application Settings
 * External Libraries
@@ -156,10 +156,23 @@ It is a modular application, and some modules are installed by default. It will 
   * Datatables
   * Select2
   * Date Time Picker
+  * Jodit WYSIWYG Editor
 * Backup (Source, Files, Database as Zip)
 * Log Viewer
 * Notification
   * Dashboard and details view
+
+
+## Companion Packages
+
+Laravel Starter is built on top of a set of focused, reusable packages that are also available independently for any Laravel application.
+
+| Package | Description |
+|---|---|
+| [nasirkhan/module-manager](https://github.com/nasirkhan/module-manager) | Powerful module management with version tracking, migration management, dependency resolution, and full module lifecycle commands (`module:status`, `module:build`, `module:enable`, etc.) |
+| [nasirkhan/laravel-cube](https://github.com/nasirkhan/laravel-cube) | Versatile collection of reusable UI Blade components (buttons, modals, cards, forms, navigation, and more) with dual Tailwind CSS and Bootstrap 5 support and built-in dark mode |
+| [nasirkhan/laravel-jodit](https://github.com/nasirkhan/laravel-jodit) | Integrates the [Jodit](https://xdsoft.net/jodit/) WYSIWYG editor via a single Blade component (`<x-jodit::editor>`), with Livewire support and a built-in server-side file browser/uploader |
+| [nasirkhan/laravel-sharekit](https://github.com/nasirkhan/laravel-sharekit) | Reusable Blade-powered social sharing buttons with metadata auto-detection, popup sharing, native Web Share API support, copy-link action, and page-scoped asset loading |
 
 
 # User Guide
@@ -257,7 +270,7 @@ php artisan db:seed-essential --fresh --force
 ```
 
 ## Docker and Laravel Sail
-This project is configured with Laravel Sail (https://laravel.com/docs/sail). You can use all the docker functionalities here. To install using docker and sail:
+This project is configured with [Laravel Sail](https://laravel.com/docs/sail). You can use all the docker functionalities here. To install using docker and sail:
 
 1. Clone or download the repository
 2. Go to the project directory and run `composer install`
