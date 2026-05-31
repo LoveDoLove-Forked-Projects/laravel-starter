@@ -6,12 +6,12 @@ Here Frontend and Backend are completely separated with separate routes, control
 
 ***Please let me know your feedback and comments.***
 
-[![Latest Stable Version](http://poser.pugx.org/nasirkhan/laravel-starter/v)](https://packagist.org/packages/nasirkhan/laravel-starter) 
-[![Total Downloads](https://img.shields.io/packagist/dt/nasirkhan/laravel-starter.svg?style=flat-square)](https://packagist.org/packages/nasirkhan/laravel-starter)
+[![Latest Stable Version](https://img.shields.io/packagist/v/nasirkhan/laravel-starter?label=Stable)](https://packagist.org/packages/nasirkhan/laravel-starter) 
+[![Total Downloads](https://img.shields.io/packagist/dt/nasirkhan/laravel-starter.svg?label=Downloads)](https://packagist.org/packages/nasirkhan/laravel-starter)
 [![StyleCI Build](https://github.styleci.io/repos/105638882/shield?style=flat)](https://packagist.org/packages/nasirkhan/laravel-starter) 
-[![License](http://poser.pugx.org/nasirkhan/laravel-starter/license)](https://packagist.org/packages/nasirkhan/laravel-starter) 
+[![License](https://img.shields.io/github/license/nasirkhan/laravel-starter?label=License)](https://packagist.org/packages/nasirkhan/laravel-starter) 
 [![PHP Version Require](http://poser.pugx.org/nasirkhan/laravel-starter/require/php)](https://packagist.org/packages/nasirkhan/laravel-starter)
-
+[![Nasir Khan Saikat](https://img.shields.io/badge/Powered%20By-Nasir%20Khan%20Saikat-ff2d20.svg)](https://nasirkhn.com)
 
 # Application Demo
 Check the following demo project. It is just a straight installation of the project without any modification.
